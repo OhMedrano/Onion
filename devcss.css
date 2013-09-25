@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Aldrich);
+
+body {
+	background-image:url(blackpat.jpg);
+	background-attachment: fixed;
+}
+.menu {
+	color:white;
+}
+.title {
+	color:white;
+	position:fixed;
+	left:300px;
+	font-family:Aldrich;
+	border:1px;
+	z-index: 2;
+}
+.bio {
+	width:50%;
+	color:white;
+	position: relative;
+	left:50px;
+	top:300px;
+	font-family:Aldrich;
+
+}
+.headerimage {
+	background-image:url(blackpat2.jpg);
+	height:25%;
+	width:100%;
+	z-index: 1;
+	position: fixed;
+	top:0px;
+}
+.image {
+	position:fixed;
+	top:50px;
+	right:40px;
+}
