@@ -2,15 +2,19 @@
 <head>
 <title> Devin DollFace Alexis </title>
 <link rel="stylesheet" href="devcss.css">
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.min.js">
+</script>
 </head>
 
 <body>
 <div class="headerimage">
-<div class="menu"> Bio Gallery Contact </div>
+<div class="menu"> <ul>
+	<li onclick="$('.page').hide();$('#bio').show()">Bio</li> <li onclick="$('.page').hide();$('#gallery').show()" >Gallery</li> <li>Contact</li>
+	<ul> </div>
 
 <div class="title"><h1>Devin DollFace Alexis</h1></div>
 </div>
-<div class="bio"> 
+<div id="bio" class="page"> 
 
 <p>Devin Dollface Alexis was born and raised in the city of glitter and grime; sometimes her friend, sometimes a waste of rotting time. 
 
@@ -32,6 +36,30 @@
 
 </div>
 <div class="image">
-	<img src="http://static.wixstatic.com/media/cc5367_e0e0618cd972efb9540daacea002c337.jpg_srz_365_570_75_22_0.50_1.20_0.00_jpg_srz"/>
+	<img src="http://static.wixstatic.com/media/cc5367_e0e0618cd972efb9540daacea002c337.jpg_srz_365_570_75_22_0.50_1.20_0.00_jpg_srz" /></div>
+
+	<div class="info"> <ul>
+		<li><a href="https://www.facebook.com/devindollfacealexis">Facebook</a></li>
+		<li><a href="http://www.imdb.com/name/nm5046039/">IMDB</a></li>
+		<li><a href="http://www.linkedin.com/profile/edit?trk=hb_tab_pro_top">LinkedIn</a></li>
+	</ul>
+</div>
+	<div id="gallery" class="page">
+	<table>
+		<tr>
+			<td><img src="https://scontent-b-lga.xx.fbcdn.net/hphotos-ash4/1012304_579324128785674_1586076209_n.jpg"/> </td>
+			<td><img src="https://scontent-b-lga.xx.fbcdn.net/hphotos-ash4/1044435_612727768746901_1772856904_n.jpg"/></td>
+		</tr>
+		<tr>
+			<td><img src="https://scontent-b-lga.xx.fbcdn.net/hphotos-ash3/1148821_10151866075676754_1282655787_n.jpg"/> </td>
+			<td><img src="https://scontent-b-lga.xx.fbcdn.net/hphotos-frc3/1235974_10151942243671754_1729550024_n.jpg"/></td>
+		</tr>
+		<tr>
+			<td><img src="https://scontent-b-lga.xx.fbcdn.net/hphotos-ash4/1240182_559087710825447_1609121556_n.jpg"/></td>
+			<td><img src="
+https://scontent-a-lga.xx.fbcdn.net/hphotos-prn1/994324_545128795540617_893290937_n.jpg"/></td>
+		</tr>
+	</table></div>
+
 </body>
 </html>
